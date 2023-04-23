@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    margin : 0 auto ; 
+
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.Admin_container {
+    background-color: rgba(103, 112, 112, 0.084);
+    border-radius: 7px;
+    margin : 30px;
+}
+.Admin_container h5 {
+    font-weight: 400;
+    margin-left : 20px;
+}
+.Admin_container h1 {
+    font-weight: 600;
+    color : rgb(37, 37, 79);
+    padding-top : 30px;
+    padding-left : 20px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+
+}
+.box {
+    width : 150px;
+    height : 150px;
+    border-radius: 50%;
+    background-color :rgba(86, 70, 70, 0.208) ; 
+    margin : 30px;
+    display : flex ; 
+    flex-direction: column;
+    justify-content:center;
+    align-items : center;
+}
+.box img {
+    width : 60px;
+    height : auto;
+
+
+}
+.add {
+    display : flex ; 
+    justify-content: center ;
+    margin-bottom: 30px;
+}
+.add button {
+    text-decoration: none;
+    padding : 0.4rem 1.5rem; 
+    color :rgb(37, 37, 79);
+    border : 0.7px solid rgb(37, 37, 79) ; 
+    border-radius:17px;
+    margin:20px;
+}
+.add a {
+    text-decoration: none;
+    padding : 0.4rem 1.5rem; 
+    color :rgb(37, 37, 79);
+    border : 0.7px solid rgb(37, 37, 79) ; 
+    border-radius:17px;
+    margin:20px;
+
+}
+.add button:hover{
+    background-color : rgb(37, 37, 79); 
+    color : white ; 
+    border : 0.7px solid white ; 
+    cursor :pointer;
+}
+.add a:hover{
+    background-color : rgb(37, 37, 79); 
+    color : white ; 
+    border : 0.7px solid white ;
+    cursor : pointer; 
+}
+.mostWanted {
+    display : grid ; 
+    grid-template-columns : 1fr 1fr 1fr ; 
+}
+.title {
+    text-align : center;
+    font-weight : 600;
+    font-size : 20px;
+    margin-top: 50px;
+}
+.box1 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin : 30px;
+    border-radius: 10px;
+}
+.margin{
+    padding:20px;
+}
+.reguliers {
+    display : grid ; 
+    grid-template-columns : 1fr 1fr 1fr ; 
+}
+.viewMore {
+    display: flex;
+    align-items: center;
+    justify-content : center;
+}
+.viewMore a {
+    text-decoration : none;
+    background-color : rgb(37, 37, 79);
+    color :white ; 
+    padding : 0.4rem 1.5rem; 
+    border-radius:17px;
+}
+.viewMore a:hover{
+    color : rgb(37, 37, 79);
+    background-color :white ;
+    border : 0.7px solid rgb(37, 37, 79); 
+}
+#ajouterChambre{
+    display : none;
+    margin : 0 auto ; 
+}
+#ajouterChambre button{
+    background-color :rgb(255, 255, 255);
+    color :rgb(28, 18, 63);
+    border : 0.7px solid rgb(37, 37, 79); 
+    border-radius:7px;
+    display :table;
+    margin : 0 auto ; 
+    padding:0.4rem 1rem;
+    cursor : pointer;
+}
+#ajouterChambre button:hover{
+    background-color :rgb(37, 37, 79);
+    color :rgb(255, 255, 255);
+
+
+}
+.addElement {
+    margin-bottom : 10px;
+}
+.addElement input {
+    border-radius: 7px;
+    text-align: center;
+}
+.notEdit{
+    display : table;
+}
+.none {
+    display: none;
+}
+.clickable{
+    cursor:pointer;
+    background-color: aqua;
+    border-radius: 7px;
+}
+.element {
+    display: flex;
+}
+.Edit {
+    display : none;
+}

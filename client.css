@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.hidden{
+    display :none;
+
+}
+#container {
+    display : grid ; 
+    grid-template-columns : 1fr 1fr 1fr ; 
+
+}
+h1 {
+    text-align : center; 
+    font-weight : 400;
+    color : rgb(30, 18, 59);
+}
+.chambre {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin : 30px;
+    border-radius: 10px;
+}
+.chambre form {
+    margin : 20px;
+}
+.chambre form button {
+    border-radius: 7px;
+    display : table ; 
+    margin : 0 auto ; 
+    cursor : pointer;
+
+}
+.chambre form button:hover {
+    color : white; 
+    background-color :rgb(30, 18, 59); 
+    
+}
+.reservation_panel{
+    display : flex ; 
+    justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin : 30px;
+    border-radius: 10px;
+}
+.title {
+    text-align: center;
+    font-weight:600; 
+    color:rgb(30, 18, 59);
+    font-size : 30px;
+    padding-top : 40px;
+}
+.panel {
+    padding : 20px;
+}
+.Reserved {
+    text-align: center;
+    font-weight: 600;
+    color :rgb(36, 22, 67);
+    font-size : 30px;
+}
+.small {
+    display : table ;
+    margin : 0 auto ; 
+    color :rgba(30, 18, 59, 0.434);
+    font-size : 15px;
+}
+.reservations {
+    margin-top : 30px;
+    display : grid ; 
+    grid-template-columns : 1fr 1fr 1fr ; 
+
+}
+.box1 {
+    padding : 20px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+}
