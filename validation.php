@@ -1,13 +1,13 @@
 <?php
 session_start(); 
-$connection = mysqli_connect("localhost",'root','rayen');
-mysqli_select_db($connection,'ingbdd');
 $username = $_POST['username']; 
 $pass = $_POST['password'];
-if($connection==false){
-    echo "probleme de connection";
+$connection = mysqli_connect("hoteldb.c9cdrqgzzngt.us-east-1.rds.amazonaws.com",'admin','Rayene123123123');
+if (!$connection) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 else {
+    echo('hay t3addet c bon');
     $userTable= " select * from utilisateur where username='$username' && password = '$pass'";
     $chambresquery = " select * from chambre";
     $latestchquery = "select * from chambre order by nb_reservee limit 6";

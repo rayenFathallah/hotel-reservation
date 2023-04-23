@@ -6,7 +6,7 @@ define('DB_PASSWORD', 'rayen');
 define('DB_NAME', 'ingbdd');
  
 // Connexion à la base de données MySQL 
-$conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+$conn = mysqli_connect("hoteldb.c9cdrqgzzngt.us-east-1.rds.amazonaws.com",'admin','Rayene123123123');
  
 // Vérifier la connexion
 if($conn === false){

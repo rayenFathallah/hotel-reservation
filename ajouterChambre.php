@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connection = mysqli_connect("localhost",'root','');
+$connection = mysqli_connect("hoteldb.c9cdrqgzzngt.us-east-1.rds.amazonaws.com",'admin','Rayene123123123');
 mysqli_select_db($connection,'ingbdd');
 $numChambre=$_POST["num_chambre"];
 $etage=$_POST["etage"];
