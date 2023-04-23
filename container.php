@@ -1,5 +1,5 @@
 <?php 
-$connection = mysqli_connect("localhost",'root','');
+$connection = mysqli_connect("localhost",'root','rayen');
 mysqli_select_db($connection,'ingbdd');
 $clients=[];
 $usersquery=" select name_client , id_client , email , nb_reservations , telephone from client";

@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connection = mysqli_connect("localhost",'root','');
+$connection = mysqli_connect("localhost",'root','rayen');
 mysqli_select_db($connection,'ingbdd');
 $id_client=$_POST["id_client"];
 echo $id_client ; 

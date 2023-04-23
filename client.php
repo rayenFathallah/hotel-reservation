@@ -3,7 +3,7 @@ session_start();
 if(!isset($_SESSION['username'])){
     header("Location:Login.php");
 }
-$connection = mysqli_connect("localhost",'root','');
+$connection = mysqli_connect("localhost",'root','rayen');
 mysqli_select_db($connection,'ingbdd');
 ?>
 <html> 

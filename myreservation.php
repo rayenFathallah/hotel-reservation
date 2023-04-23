@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connection = mysqli_connect("localhost",'root','');
+$connection = mysqli_connect("localhost",'root','rayen');
 mysqli_select_db($connection,'ingbdd');
 $selectQuery = "select * from reservation where id_client='$id_client'";
 $updateQuery = "DELETE from reservation where id_reservation='$id_reservation'";

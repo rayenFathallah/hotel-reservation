@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connection = mysqli_connect("localhost",'root','');
+$connection = mysqli_connect("localhost",'root','rayen');
 mysqli_select_db($connection,'ingbdd');
 $user=$_SESSION["username"];
 $num_chambre = $_POST['num_chambre'];

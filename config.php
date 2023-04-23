@@ -2,7 +2,7 @@
 // Informations d'identification
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'rayen');
 define('DB_NAME', 'ingbdd');
  
 // Connexion à la base de données MySQL 

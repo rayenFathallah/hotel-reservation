@@ -1,7 +1,7 @@
 <?php
 session_start(); 
 header('Location:login.php');
-$connection = mysqli_connect("localhost",'root','');
+$connection = mysqli_connect("localhost",'root','rayen');
 mysqli_select_db($connection,'ingbdd');
 $username = $_POST['username']; 
 $name = $_POST["name"];
